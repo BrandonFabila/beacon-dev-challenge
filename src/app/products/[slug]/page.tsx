@@ -175,10 +175,10 @@ export default async function ProductDetailPage({
           </Link>
 
           <Link
-            href="/products/edit"
+            href={`/products/${slug}/edit`}
             className="mt-2 inline-flex items-center text-sm text-blue-600 hover:underline"
           >
-            Editar producto 
+            Editar producto
           </Link>
         </div>
       </div>
